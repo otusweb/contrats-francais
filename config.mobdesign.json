@@ -1,0 +1,27 @@
+{
+  "company": {
+    "name": "MobDesign"
+  , "status": "SARL"
+  , "ville_rcs": "Grasse"
+  , "description": "SARL au capital de 2000 €, enregistrée au RCS de Grasse sous n° RCS 805 078 607, dont le siège social est au 515 chemin de peyrebelle, 06560 Valbonne, représentée aux fins des présentes par Olivier Destrebecq en qualité de gérant"
+  , "author": "Olivier Destrebecq"
+  , "url": "http://mobdesignapps.fr"
+  , "url_nice": "http://www.mobdesignapps.fr"
+  , "hourly_rate": 100
+  , "weekly_rate": 4000
+  , "hourly_rate_legend": "euros HT / heures"
+  , "weekly_rate_legend": "euros HT / semaine"
+  }
+, "client": {
+    "description": "La société Travelaer, Société par actions simplifiée au capital de 2883 euros, dont le siège social est sis 950 ROUTE DES COLLES, 06410 BIOT, immatriculée sous le n° 798 375 440, représentée par Mike Slone,"
+  }
+, "contract": {
+    "duration": 1
+  , "duration_unit": "semaine"
+  , "prepayment_novat": null
+  , "prepayment_vat": null
+  }
+, "cgv": {
+    "startDate": "1er janvier 2017"
+  }
+}

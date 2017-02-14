@@ -4,10 +4,7 @@
 ## Article 1. Champ d’application
 
 Les présentes conditions générales sont applicables entre {{company.name}},
-Entreprise Unipersonnelle à Responsabilité Limitée au capital de
-{{company.capital}} €, enregistrée au RCS de Paris sous n°{{company.rcs}}, dont
-le siège social est sis {{company.address}}, représentée aux fins des présentes
-par {{company.author}} en qualité de gérant, Ci-après dénommée «
+{{company.description}}, Ci-après dénommée «
 {{company.name}} », et toute personne physique ou morale, particulier ou
 professionnel, de droit privé ou de droit public, contractant avec
 {{company.name}} pour la réalisation d’un Livrable, ci-après « le Client ».
@@ -60,22 +57,10 @@ Itérations successives. Il devra ainsi apporter les solutions techniques
 permettant de concrétiser l’architecture du Livrable et d’en assurer le bon
 fonctionnement. {{company.name}} est soumis à une obligation de moyens.
 
-{{company.name}} pourra sous-traiter tout ou partie de la prestation. A cet
-égard, la simple mention écrite du sous-traitant, sur tout document, de quelque
-manière que ce soit, vaudra agrément du sous-traitant par le Client, à défaut
-d’une notification immédiate de refus adressé par le Client à {{company.name}}
-par lettre recommandée avec avis de réception. Le taux horaire du sous-traitant
-est celui mentionné sur le Devis.
-
 Sauf stipulation contraire dans le Devis, {{company.name}} n’est soumis à
 aucune obligation de maintenance ou d’assistance à l’utilisation.
 
 ### 4.2. Obligations et déclarations du Client
-
-{{company.name}} s’engage à concevoir et à réaliser un Livrable fonctionnel par
-Itérations successives. Il devra ainsi apporter les solutions techniques
-permettant de concrétiser l’architecture du Livrable et d’en assurer le bon
-fonctionnement. {{company.name}} est soumis à une obligation de moyens.
 
 Le Client s’engage à réagir dans les meilleurs délais à toute demande de
 {{company.name}} relative à la réalisation de la prestation. Le Client
@@ -96,7 +81,7 @@ Chaque Itération est soumise au plan de travail suivant :
 Les parties conviennent de la durée de l’Itération (généralement entre 5 et 10
 jours ouvrés).
 
-Le Client définit les spécifications fonctionnelles du projet dans un document
+Le Client ou {{company.name}} définit les spécifications fonctionnelles du projet dans un document
 appelé Icebox.
 
 {{company.name}} exprime ces spécifications fonctionnelles en terme de
@@ -162,11 +147,12 @@ troubles commerciaux et les pertes de bénéfices ou de clients. Le montant des
 dommages et intérêts mis à la charge de {{company.name}} ne pourra excéder le
 montant du prix total du Livrable, tel qu’indiqué dans le Devis.
 
-Aux termes de chaque Itération, {{company.name}} conserve son entière liberté
-de poursuivre ou de ne pas poursuivre le projet avec le Client.
+Dans le cas ou le client n'a pas prepayé les Itérations, aux termes de chaque Itération, 
+{{company.name}} conserve son entière liberté de poursuivre ou de ne pas poursuivre le 
+projet avec le Client.
 {{company.name}} pourra en conséquence arrêter les développements après chaque
 livraison d’une Itération, sans que cela ne constitue une faute de
-{{company.name}} ou un préjudice pour le Client.
+{{company.name}} ou un préjudice pour le Client. 
 
 
 ### 7.2. Force majeure et faute du client
@@ -222,8 +208,8 @@ l’utilisation des Éléments apportés aux fins des présentes. Il garantit
 
 Le Livrable est composé le cas échéant :
 
-* d’un Framework : composant logiciel structurel, définissant les fondations du
-  Livrable. Le framework est placé sous licence spécifique. Le Client est
+* d’un ou plusieurs Framework : composant logiciel structurel, définissant les fondations 
+  du Livrable. Le framework est placé sous licence spécifique. Le Client est
   investi des droits sur le framework conformément à cette licence spécifique.
 
 * des Développements Spécifiques : contenus réalisés spécifiquement par
@@ -264,20 +250,7 @@ sur les développements spécifiques est forfaitaire.
 de droit d’auteur sur les développements spécifiques à d’autres rémunérations
 que celles stipulées dans le Devis.
 
-### 9.4. Droit de paternité
-
-À défaut de mention contraire dans le Devis, le nom de {{company.author}},
-auteur originaire du Logiciel, devra être associé au Livrable au cours de son
-exploitation. S’il s’agit d’un site web, le nom de {{company.author}}
-apparaîtra :
-
-sur une page appelé « Crédit », « Informations légales » ou « Mentions légales
-» accessible depuis la page d’accueil du site et comportant un lien hypertexte
-vers [{{company.url_nice}}]({{company.url}});
-
-dans le header du code html des pages web du site sous la balise « Creator ».
-
-### 9.5. Actions en justice
+### 9.4. Actions en justice
 
 À défaut de mention contraire dans le Devis, seule {{company.name}} aura
 qualité pour exercer les actions en contrefaçon et concurrence déloyale
@@ -293,13 +266,6 @@ exploitations non autorisées des développements spécifiques.
 
 {{company.name}} autorise le Client à effectuer lui-même des Évolutions du
 Livrable et à en assurer la maintenance.
-
-Toutefois, si le Client souhaite confier les Évolutions ou la maintenance du
-Livrable à un prestataire, le Client s’engage à proposer en priorité la prise
-en charge de cette prestation à {{company.name}}, qui s’engage en contrepartie
-à proposer au Client des conditions tarifaires similaires à celles consenties
-aux termes du présent contrat.
-
 
 ## Article 11. Prix et modalités de paiement
 
@@ -330,10 +296,8 @@ somme supplémentaire au profit de {{company.name}}.
 
 ## Article 12. Références
 
-Sauf interdiction expresse du Client dans un délai d’un mois à compter de la
-réception du Livrable, {{company.name}} est autorisé à utiliser le nom du
-Client, ainsi que l’image de la page d’accueil du Livrable, dans le cadre de sa
-promotion commerciale et publicitaire.
+{{company.name}} est autorisé à utiliser le nom du Client, ainsi que des capture 
+d'écran du Livrable, dans le cadre de sa promotion commerciale et publicitaire.
 
 
 ## Article 13. Réserve de propriété

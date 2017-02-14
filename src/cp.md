@@ -1,4 +1,4 @@
-# Contrat de développement d’application web
+# Contrat de développement d’application mobile
 
 {{ client.description }},
 est « le Client », cité dans les _Conditions générales de vente_ et ce présent contrat.
@@ -10,7 +10,7 @@ développements spécifiques.
 
 ## Prix - Paiement
 
-Le taux horaire de {{ company.name }} s'élève à {{ company.hourly_rate }} {{ company.hourly_rate_legend }}. {{ company.name }} propose ses services pour {{ contract.duration }} {{ contract.duration_unit }} de prestation.{{#if contract.prepayment_novat }}Le client s’engage donc à payer {{ contract.prepayment_novat }} € HT {{#if contract.prepayment_vat}} soit {{ contract.prepayment_vat }} € TTC{{/if}} avant l'intervention.{{/if}} Le paiement des prestations interviendra par virement sur le compte bancaire dont le RIB a été communiqué au Client.
+Le taux hebdomadaire de {{ company.name }} s'élève à {{ company.weekly_rate }} {{ company.hourly_rate_legend }}. {{ company.name }} propose ses services pour {{ contract.duration }} {{ contract.duration_unit }} de prestation.{{#if contract.prepayment_novat }}Le client s’engage donc à payer {{ contract.prepayment_novat }} € HT {{#if contract.prepayment_vat}} soit {{ contract.prepayment_vat }} € TTC{{/if}} avant l'intervention.{{/if}} Le paiement des prestations interviendra par virement sur le compte bancaire dont le RIB a été communiqué au Client.
 
 ## Conditions spécifiques
 
